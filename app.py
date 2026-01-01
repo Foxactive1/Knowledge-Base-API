@@ -9,7 +9,7 @@ from collections import defaultdict
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
-# Configurações
+# Configurações do app
 app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024  # Limite de 2MB para uploads
 app.config['SECRET_KEY'] = os.environ.get('FLASK_SECRET', 'default-secret-key')
 
