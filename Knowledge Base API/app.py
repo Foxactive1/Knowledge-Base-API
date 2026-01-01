@@ -6,7 +6,7 @@ from datetime import datetime
 from functools import wraps
 import uuid
 from collections import defaultdict
-
+#inicaliza app flask
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
 # Configurações
