@@ -1,0 +1,283 @@
+{
+    "python": {
+        "intro": "Python é uma linguagem de programação de alto nível, ideal para automação, IA, análise de dados e desenvolvimento web.",
+        "principais_usos": [
+            "Desenvolvimento Web (Django, Flask)",
+            "Ciência de Dados (Pandas, NumPy)",
+            "Machine Learning (TensorFlow, PyTorch)",
+            "Automação e Scripting",
+            "Desenvolvimento de APIs"
+        ],
+        "caracteristicas": {
+            "tipagem": "Dinâmica e forte",
+            "paradigma": ["Orientado a Objetos", "Funcional", "Imperativo"],
+            "gerenciador_pacotes": "pip",
+            "versao_atual": "3.12",
+            "ano_criacao": 1991,
+            "criador": "Guido van Rossum",
+            "comunidade": "Uma das maiores comunidades de código aberto"
+        },
+        "frameworks": {
+            "web": ["Django", "Flask", "FastAPI"],
+            "data_science": ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
+            "ml": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras"]
+        },
+        "exemplos": {
+            "hello_world": "print('Hello, world!')",
+            "loop": "for i in range(5): print(f'Número {i}')",
+            "funcao": "def soma(a, b): return a + b",
+            "classe": "class Pessoa:\n    def __init__(self, nome):\n        self.nome = nome"
+        },
+        "curiosidade": "O nome Python vem do grupo de humor britânico Monty Python"
+    },
+    "javascript": {
+        "intro": "JavaScript é uma linguagem de programação versátil usada principalmente para desenvolvimento web front-end e back-end.",
+        "principais_usos": [
+            "Desenvolvimento Web Front-end",
+            "Desenvolvimento Back-end (Node.js)",
+            "Desenvolvimento Mobile (React Native)",
+            "Aplicações Desktop (Electron)",
+            "APIs RESTful",
+            "Jogos HTML5"
+        ],
+        "caracteristicas": {
+            "tipagem": "Dinâmica e fraca",
+            "paradigma": ["Orientado a Objetos", "Funcional", "Prototipal"],
+            "gerenciador_pacotes": "npm",
+            "versao_atual": "ES2024",
+            "ano_criacao": 1995,
+            "criador": "Brendan Eich",
+            "comunidade": "Maior comunidade de desenvolvedores do mundo"
+        },
+        "frameworks": {
+            "frontend": ["React", "Vue.js", "Angular", "Svelte"],
+            "backend": ["Node.js", "Express", "NestJS", "Fastify"],
+            "mobile": ["React Native", "Ionic", "NativeScript"],
+            "desktop": ["Electron", "Tauri"]
+        },
+        "exemplos": {
+            "hello_world": "console.log('Hello, world!');",
+            "loop": "for (let i = 0; i < 5; i++) { console.log(`Número ${i}`); }",
+            "funcao": "const soma = (a, b) => a + b;",
+            "promise": "fetch('https://api.example.com')\n  .then(response => response.json())\n  .then(data => console.log(data));"
+        },
+        "curiosidade": "Desenvolvida em apenas 10 dias em 1995"
+    },
+    "java": {
+        "intro": "Java é uma linguagem de programação orientada a objetos, robusta e multiplataforma.",
+        "principais_usos": [
+            "Desenvolvimento Empresarial",
+            "Aplicações Android",
+            "Sistemas Distribuídos",
+            "Microserviços",
+            "Big Data",
+            "IoT"
+        ],
+        "caracteristicas": {
+            "tipagem": "Estática e forte",
+            "paradigma": ["Orientado a Objetos"],
+            "gerenciador_pacotes": "Maven/Gradle",
+            "versao_atual": "21",
+            "ano_criacao": 1995,
+            "criador": "James Gosling (Sun Microsystems)",
+            "comunidade": "Grande comunidade corporativa"
+        },
+        "frameworks": {
+            "web": ["Spring", "Jakarta EE", "Micronaut", "Quarkus"],
+            "orm": ["Hibernate", "JPA", "MyBatis"],
+            "testing": ["JUnit", "TestNG", "Mockito"],
+            "android": ["Android SDK"]
+        },
+        "exemplos": {
+            "hello_world": "public class HelloWorld { public static void main(String[] args) { System.out.println('Hello, world!'); } }",
+            "loop": "for (int i = 0; i < 5; i++) { System.out.println('Número ' + i); }",
+            "funcao": "public int soma(int a, int b) { return a + b; }",
+            "interface": "public interface Animal {\n    void fazerSom();\n}"
+        },
+        "curiosidade": "Originalmente chamada de Oak (Carvalho)"
+    },
+    "c++": {
+        "intro": "C++ é uma linguagem de programação de alto desempenho amplamente usada para sistemas embarcados e aplicativos que exigem alta eficiência.",
+        "principais_usos": [
+            "Desenvolvimento de Jogos",
+            "Sistemas Operacionais",
+            "Drivers de Hardware",
+            "Aplicações em Tempo Real",
+            "Simulação e Modelagem",
+            "High-Frequency Trading"
+        ],
+        "caracteristicas": {
+            "tipagem": "Estática e forte",
+            "paradigma": ["Orientado a Objetos", "Procedural"],
+            "gerenciador_pacotes": "vcpkg",
+            "versao_atual": "C++20",
+            "ano_criacao": 1985,
+            "criador": "Bjarne Stroustrup",
+            "comunidade": "Comunidade focada em alta performance"
+        },
+        "frameworks": {
+            "gui": ["Qt", "wxWidgets", "Dear ImGui"],
+            "jogos": ["Unreal Engine", "Godot", "Cocos2d"],
+            "ciência_computacional": ["Boost", "Eigen", "OpenCV"]
+        },
+        "exemplos": {
+            "hello_world": "#include <iostream> int main() { std::cout << 'Hello, world!'; return 0; }",
+            "loop": "for (int i = 0; i < 5; ++i) { std::cout << 'Número ' << i << '\\n'; }",
+            "funcao": "int soma(int a, int b) { return a + b; }",
+            "template": "template <typename T> T max(T a, T b) { return (a > b) ? a : b; }"
+        },
+        "curiosidade": "Extensão da linguagem C com adição de classes"
+    },
+    "php": {
+        "intro": "PHP é uma linguagem de programação popular para desenvolvimento web do lado do servidor.",
+        "principais_usos": [
+            "Desenvolvimento de Websites Dinâmicos",
+            "Sistemas de Gerenciamento de Conteúdo (CMS)",
+            "APIs RESTful",
+            "Comércio Eletrônico",
+            "Blogs e Fóruns"
+        ],
+        "caracteristicas": {
+            "tipagem": "Dinâmica e fraca",
+            "paradigma": ["Orientado a Objetos", "Procedural"],
+            "gerenciador_pacotes": "Composer",
+            "versao_atual": "8.4",
+            "ano_criacao": 1994,
+            "criador": "Rasmus Lerdorf",
+            "comunidade": "Ampla comunidade em desenvolvimento web"
+        },
+        "frameworks": {
+            "web": ["Laravel", "Symfony", "CodeIgniter", "Slim"],
+            "cms": ["WordPress", "Drupal", "Joomla", "Magento"]
+        },
+        "exemplos": {
+            "hello_world": "<?php echo 'Hello, world!'; ?>",
+            "loop": "<?php for ($i = 0; $i < 5; $i++) { echo 'Número ' . $i; } ?>",
+            "funcao": "<?php function soma($a, $b) { return $a + $b; } ?>",
+            "classe": "<?php class Usuario {\n    public function __construct(private string $nome) {}\n} ?>"
+        },
+        "curiosidade": "Originalmente significava Personal Home Page"
+    },
+    "ruby": {
+        "intro": "Ruby é uma linguagem dinâmica focada na simplicidade e produtividade, amplamente conhecida por ser usada com o framework Ruby on Rails.",
+        "principais_usos": [
+            "Desenvolvimento Web (Ruby on Rails)",
+            "Automação de Tarefas",
+            "Scripting",
+            "APIs RESTful",
+            "Prototipagem Rápida"
+        ],
+        "caracteristicas": {
+            "tipagem": "Dinâmica e forte",
+            "paradigma": ["Orientado a Objetos", "Funcional"],
+            "gerenciador_pacotes": "RubyGems",
+            "versao_atual": "3.3",
+            "ano_criacao": 1995,
+            "criador": "Yukihiro Matsumoto",
+            "comunidade": "Comunidade ativa com foco em boas práticas"
+        },
+        "frameworks": {
+            "web": ["Ruby on Rails", "Sinatra", "Hanami", "Roda"],
+            "testes": ["RSpec", "Cucumber", "Minitest"]
+        },
+        "exemplos": {
+            "hello_world": "puts 'Hello, world!'",
+            "loop": "5.times { |i| puts \"Número #{i}\" }",
+            "funcao": "def soma(a, b) a + b end",
+            "bloco": "[1,2,3].each { |n| puts n * 2 }"
+        },
+        "curiosidade": "Filosofia: 'Ruby é projetado para fazer programadores felizes'"
+    },
+    "go": {
+        "intro": "Go é uma linguagem de programação de código aberto desenvolvida pelo Google, focada em simplicidade, confiabilidade e eficiência.",
+        "principais_usos": [
+            "Sistemas Distribuídos",
+            "Cloud Computing",
+            "Microserviços",
+            "Ferramentas CLI",
+            "Network Services"
+        ],
+        "caracteristicas": {
+            "tipagem": "Estática e forte",
+            "paradigma": ["Concorrente", "Imperativo", "Estruturado"],
+            "gerenciador_pacotes": "Go Modules",
+            "versao_atual": "1.22",
+            "ano_criacao": 2009,
+            "criador": "Google",
+            "comunidade": "Comunidade crescente em infraestrutura"
+        },
+        "frameworks": {
+            "web": ["Gin", "Echo", "Fiber"],
+            "orm": ["GORM", "ent"],
+            "testes": ["Testing (nativo)"]
+        },
+        "exemplos": {
+            "hello_world": "package main\nimport \"fmt\"\nfunc main() {\n    fmt.Println(\"Hello, world!\")\n}",
+            "loop": "for i := 0; i < 5; i++ {\n    fmt.Printf(\"Número %d\\n\", i)\n}",
+            "funcao": "func soma(a int, b int) int {\n    return a + b\n}",
+            "goroutine": "go func() {\n    fmt.Println(\"Execução concorrente\")\n}()"
+        },
+        "curiosidade": "Também conhecida como Golang"
+    },
+    "swift": {
+        "intro": "Swift é uma linguagem moderna e poderosa desenvolvida pela Apple para desenvolvimento em iOS, macOS, watchOS e tvOS.",
+        "principais_usos": [
+            "Aplicativos iOS",
+            "Aplicativos macOS",
+            "watchOS e tvOS",
+            "Desenvolvimento Server-Side"
+        ],
+        "caracteristicas": {
+            "tipagem": "Estática e forte",
+            "paradigma": ["Orientado a Protocolos", "Funcional", "Orientado a Objetos"],
+            "gerenciador_pacotes": "Swift Package Manager",
+            "versao_atual": "5.10",
+            "ano_criacao": 2014,
+            "criador": "Apple Inc.",
+            "comunidade": "Comunidade forte no ecossistema Apple"
+        },
+        "frameworks": {
+            "ios": ["SwiftUI", "UIKit", "Combine"],
+            "server": ["Vapor", "Perfect"],
+            "testes": ["XCTest"]
+        },
+        "exemplos": {
+            "hello_world": "print(\"Hello, world!\")",
+            "loop": "for i in 0..<5 { print(\"Número \\(i)\") }",
+            "funcao": "func soma(_ a: Int, _ b: Int) -> Int { return a + b }",
+            "optional": "var nome: String? = \"Swift\"\nprint(nome!)"
+        },
+        "curiosidade": "Desenvolvida para substituir Objective-C"
+    },
+    "rust": {
+        "intro": "Rust é uma linguagem de sistemas focada em segurança, desempenho e concorrência, garantindo segurança de memória sem garbage collector.",
+        "principais_usos": [
+            "Sistemas Operacionais",
+            "Motores de Navegador",
+            "Sistemas Embarcados",
+            "Ferramentas de Segurança",
+            "WebAssembly"
+        ],
+        "caracteristicas": {
+            "tipagem": "Estática e forte",
+            "paradigma": ["Funcional", "Concorrente", "Imperativo"],
+            "gerenciador_pacotes": "Cargo",
+            "versao_atual": "1.77",
+            "ano_criacao": 2010,
+            "criador": "Mozilla Research",
+            "comunidade": "Comunidade apaixonada por segurança e performance"
+        },
+        "frameworks": {
+            "web": ["Actix-web", "Rocket", "Axum"],
+            "gui": ["Iced", "egui"],
+            "cli": ["Clap", "StructOpt"]
+        },
+        "exemplos": {
+            "hello_world": "fn main() { println!(\"Hello, world!\"); }",
+            "loop": "for i in 0..5 { println!(\"Número {}\", i); }",
+            "funcao": "fn soma(a: i32, b: i32) -> i32 { a + b }",
+            "ownership": "let s1 = String::from(\"hello\");\nlet s2 = s1;"
+        },
+        "curiosidade": "Eleita a linguagem mais amada no Stack Overflow por 8 anos consecutivos"
+    }
+}
